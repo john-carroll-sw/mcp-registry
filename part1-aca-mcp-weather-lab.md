@@ -26,7 +26,7 @@ Edit (or create) `.vscode/mcp.json` in your project folder with the following co
     "servers": {
         "weather-sse": {
             "type": "sse",
-            "url": "https://weather-mcp.politesmoke-91b2752a.eastus.azurecontainerapps.io/sse",
+            "url": "https://<your-container-app-url>/sse",
             "headers": {
                 "x-api-key": "${input:weather-api-key}"
             }
@@ -50,7 +50,7 @@ az containerapp up \
 ```
 
 - This sets up the app with three API keys: `weather-001`, `weather-002`, `weather-003`.
-- The Azure CLI will output the public URL for your app (e.g., `https://weather-mcp.politesmoke-91b2752a.eastus.azurecontainerapps.io`).
+- The Azure CLI will output the public URL for your app (e.g., `https://<your-app-name>.<unique-id>.<region>.azurecontainerapps.io`).
 
 ## 4. Connect from VS Code
 

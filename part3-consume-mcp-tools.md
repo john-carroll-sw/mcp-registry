@@ -1,4 +1,4 @@
-# Part 4: Discover and Use MCP Tools in AI Applications
+# Part 3: Discover and Use MCP Tools in AI Applications
 
 This guide demonstrates how to discover and consume MCP tools from Azure API Center Portal in a LangGraph application using `langchain-mcp-adapters`.
 
