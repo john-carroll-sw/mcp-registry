@@ -4,8 +4,6 @@ hosted on Azure Container Apps. Generic name: multi_mcp_client.py
 
 Usage:
     python -m asyncio multi_mcp_client.py   (or run with an async runner)
-
-Optional: set WEATHER_MCP_URL environment variable to override the built-in URL.
 """
 
 import os
@@ -18,8 +16,6 @@ from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
 # Load environment variables
 load_dotenv()
-
-
 
 async def main():
 

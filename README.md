@@ -39,7 +39,7 @@ This step makes your MCP server discoverable through the Azure API Center Portal
 
 ## Part 3: Discover and Use MCP Tools
 
-See [`part4-consume-mcp-tools.md`](./part4-consume-mcp-tools.md) for complete instructions on:
+See [`part3-consume-mcp-tools.md`](./part3-consume-mcp-tools.md) for complete instructions on:
 
 - Setting up the LangGraph application with MCP integration
 - Configuring Azure OpenAI with Azure AD authentication
